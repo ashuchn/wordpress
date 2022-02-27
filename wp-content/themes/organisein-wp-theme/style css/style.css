@@ -1,0 +1,2487 @@
+/* ----------------------- common css file start -------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;400;500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;400;500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+font-family: 'Lato', sans-serif !important;
+}
+ul li {
+    font-family: 'Lato', sans-serif !important;
+}
+/*---------------------- common css file end---------------------- */
+
+
+
+/* ------------------------- header section start -------------------------------- */
+div p{
+    font-family: 'Lato', sans-serif !important;
+}
+.____shadow{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.185);
+    width: 100% !important;
+}
+.Warper___header{
+    width: 94% !important;
+    margin: 0 auto !important;
+}
+.top__header__Wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 45px;
+    width: 100%;
+}
+.left___site____top_____header{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.left___site____top_____header span{
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: sans-serif;
+    color: rgb(77, 77, 77);
+}
+.left___site____top_____header span:hover{
+    color: #fff;
+}
+.left___site____top_____header ul{
+    list-style: none;
+    padding-left: 15px !important;
+}
+.left___site____top_____header ul li{
+    display: inline-block;
+    margin-top: 18px;
+}
+.left___site____top_____header ul li a{
+    display: block;
+    padding: 3px 4px;
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+.left___site____top_____header ul li a:hover{
+    color: #18bacf;
+    transition: 0.3s;
+}
+.right___site____top___header{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+.number___div{
+    background-color: #f1f1f1;
+    margin-right: 25px;
+    padding: 10px 20px;
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.number___div:hover{
+    color: #fff;
+}
+.login___img{
+    cursor: pointer;
+}
+.login___img img.persone__logo{
+    width: 28px;
+    margin-left: 5px;
+}
+.login___img img.flag{
+    width: 20px;
+}
+.login___img span{
+    font-size: 16px;
+    color: #0b5cab;
+    margin-top: 14px !important;
+    font-family: sans-serif;
+}
+
+/* ------------------ sticky____ -------------- */
+.sticky____{
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    background: #fff;
+    z-index: 99999999999999999999999999999999999999999999999999;
+    height: 70px !important;
+    padding: 0 73px !important;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky____logo{
+    padding: 10px 0 !important;
+    transition: 0.3s;
+}
+.sticky____logo a img{
+    width: 150px !important;
+    transition: 0.3s;
+}
+
+/*------ middle header ----- */
+
+.middle___header__Wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list___nav__here{
+    display: flex;
+    align-items: center;
+}
+.logo__img{
+    padding: 40px 0;
+    width: 201.75px;
+}
+
+
+.list___nav__here ul{
+    list-style: none;
+}
+.list___nav__here ul li{
+    display: inline-block;
+}
+.list___nav__here ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    padding: 6px 7px;
+    margin-top: 15px;
+}
+.list___nav__here ul li a:hover{
+    color: #2190ff !important;
+}
+.list___nav__here ul li a i{
+    font-size: 13px;
+    color: #2190ff !important;
+}
+.list___nav__here ul li:last-child a{
+    border: 2px solid #ffc501 !important;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 7px 9px;
+    border-radius: 6px;
+    background-color: #ffc501;
+    transition: 0.3s;
+}
+.list___nav__here ul li:last-child:hover a{
+    background-color: #fff;
+    color: #ffc501 !important;
+}
+
+/* ------------------------ navbar responsive -------------------- */
+label#icon{
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1308px){
+    .list___nav__here ul li a{
+        font-size: 12px !important;
+        padding: 6px 5px;
+    }
+    .list___nav__here ul li a i{
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 1140px){
+    .list___nav__here ul li a{
+        font-size: 10px !important;
+        padding: 6px 2px;
+    }
+    .list___nav__here ul li a i{
+        font-size: 10px !important;
+    }
+    .logo__img{
+        padding: 40px 0;
+        width: 160.75px;
+    }
+}
+
+@media (max-width: 941px){
+    .list___nav__here ul li a{
+        font-size: 8px !important;
+        padding: 6px 2px;
+    }
+    .list___nav__here ul li a i{
+        font-size: 8px !important;
+    }
+    .logo__img{
+        padding: 40px 0;
+        width: 130.75px;
+    }
+}
+
+@media screen and (max-width:799px) {
+    label#icon{
+        display: block;
+    }
+    label#icon:hover{
+        color: #ffc501 !important;
+    }
+    .list___nav__here ul{
+        position: fixed;
+        width: 100%;
+        top: 12.5%;
+        left: -100%;
+        height: 100%;
+        transition: all 0.5s cubic-bezier(0.78, 0.02, 0.6, 0.35);
+        background-color: #fff;
+        z-index: 99999999999999999999;
+    }
+    .list___nav__here ul.show{
+       left: 0;
+       top: 12.5%;
+    }
+    .list___nav__here ul li{
+        display: block;
+        margin-left: 30px;
+    }
+    .list___nav__here ul li a{
+        width: 100% !important;
+    }
+    .Warper___header{
+        width: 100%;
+    }
+    .left___site____top_____header ul{
+        display: none;
+    }
+    .logo__img{
+        padding: 40px 0;
+        width: 155.75px !important;
+    }
+    .list___nav__here ul li a{
+        font-size: 14px !important;
+        padding: 6px 8px;
+    }
+    .list___nav__here ul li a i{
+        font-size:12px !important;
+    }
+}
+@media screen and (max-width:601px) {
+    .____shadow{
+        display: none;
+    }
+    .Warper___header{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logo__img{
+        padding: 15px 0 !important;
+    }
+    .list___nav__here ul{
+        top: 50px !important;
+        margin-left: -50px !important;
+    }
+
+}
+@media screen and (max-width:767px) {
+    .Maximize____img{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width:470px) {
+    h3{
+        font-size: 22px !important;
+    }
+}
+
+
+/* ------------------------- header section end ---------------------------------- */
+
+
+
+
+
+
+/* ---------------------- bannner Section start --------------- */
+.max____width__{
+    width: 1150px !important;
+    margin: 0 auto !important;
+}
+.Wrp_____100{
+    width: 100%;
+    margin: 0 auto;
+}
+.Banner__Wraper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(21,55,69,0.80),rgba(21,55,69,0.80)), url("../images/nasa-Q1p7bh3SHj8-unsplash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+    margin-bottom: 50px;
+    
+}
+.text___banner___header h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    line-height: 50px;
+    padding: 15px 0;
+    font-size: 43px;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+.text___banner___header p{
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.Three__logo__banner{
+   padding-top: 50px;
+}
+.Three__logo__banner img{
+    width: 200px;
+    margin: 0 10px;
+}
+.after___banner___text{
+    margin-bottom: 100px;
+}
+.after___banner___text p{
+    color: #333333;
+    font-family: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+/* ---------------------- bannner Section end --------------- */
+
+
+
+/*---------------------------- section of HAPPY CUSTOMERS start ---------------------------*/
+.customer____content{
+    text-align: center;
+    margin-bottom: 150px;
+    position: relative;
+    margin-top: 100px;
+}
+.customer____content h3{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    padding: 4px 2rem;
+    color: #5d6677;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    width: 100%;
+
+}
+.customer____content h3::before{
+    content: '';
+    width: 38%;
+    height: 2px;
+    background: #5d6677;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.customer____content h3::after{
+    content: '';
+    width: 38%;
+    height: 2px;
+    background: #5d6677;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.Customers__logo{
+    border-bottom: 2px solid #5d6677;
+    padding-bottom: 10px;
+}
+.Customers__logo img{
+    width: 71.8px;
+    margin: 15px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Customers__logo img:hover{
+    filter: grayscale(1);
+}
+@media screen and (max-width:1218px) {
+    .customer____content h3::before{
+        width: 35%;
+    }
+    .customer____content h3::after{
+        width: 35%;
+    }
+    
+}
+@media screen and (max-width:976px) {
+    .customer____content h3::before{
+        width: 32%;
+    }
+    .customer____content h3::after{
+        width: 32%;
+    }
+    
+}
+@media screen and (max-width:828px) {
+    .customer____content h3::before{
+        width: 30%;
+    }
+    .customer____content h3::after{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:732px) {
+    .customer____content h3::before{
+        width: 25%;
+    }
+    .customer____content h3::after{
+        width: 25%;
+    }
+    
+}
+@media screen and (max-width:526px) {
+    .customer____content h3::before{
+        width: 20%;
+    }
+    .customer____content h3::after{
+        width: 20%;
+    }
+    
+}
+@media screen and (max-width:442px) {
+    .customer____content h3::before{
+        width: 15%;
+    }
+    .customer____content h3::after{
+        width: 15%;
+    }
+    .customer____content h3{ 
+        letter-spacing: 0px;
+    }
+    
+}
+/*--------------------------- section of HAPPY CUSTOMERS end --------------------------*/
+
+
+
+
+
+
+/* ---------------- section of Be Dynamic, Innovative and Insightful start ----------------- */
+.secton__of__innovative{
+    margin-bottom: 120px;
+}
+.Innovative_____ h4{
+    color: #4dbdeb;
+    font-size: 38px;
+    line-height: 50px;
+    font-family: Open Sans;
+    margin-bottom: 20px;
+}
+.Innovative_____ p{
+    font-family: 'Lato';
+    font-size: 14px ;
+    left: 24px;
+    font-weight: 300;
+    color: #333333;
+}
+.Innovative_____ p.First___text___details{
+    margin-bottom: 30px;
+}
+
+.Wprer___computer{
+    margin-top: -40px;
+    background-image: url(../images/wewer-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+.Wprer___computer img{
+    text-align: center;
+    width: 100%;
+}
+.Wprer___computer img.overly___Start{
+    margin-left: -10px;
+    cursor: pointer;
+}
+/* ---------------- section of Be Dynamic, Innovative and Insightful end ----------------- */
+
+
+
+
+
+/*---------------------- section of  Digital Marketing Services start  -------------------------*/
+.Digital__Marketing__Services{
+    margin-bottom: 50px;
+}
+.Digital__Marketing__Services{
+    margin-bottom: 80px;
+
+}
+.Marketing______{
+    text-align: center;
+}
+.single__margkein{
+    padding: 10px 33px;
+    margin:15px 10px !important;
+    width: 350px !important;
+    background-color: #f5fbfe;
+    margin-bottom: 20px !important;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #58585845;
+}
+.single__margkein:hover {
+    background: #ceefffcb;
+    transition: 0.3s;
+}
+@media screen and (max-width:350px){
+    .single__margkein{
+       width: 100%  !important;
+       margin: auto !important;
+    }
+}
+.Marketing______ h6{
+    color: #21bbf4;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: 'Lato';
+    font-weight: 300 !important;
+}
+.Marketing______ p{
+    font-size: 16px ;
+    left: 24px;
+    font-weight: 300;
+    color: #4b4a4a;
+    font-family: 'Lato';
+}
+.single__margkein h3{
+    font-size: 22px;
+    color: #656565c4;
+    font-family: Open Sans;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.single__margkein p{
+    font-family: 'Lato';
+    font-family: 300;
+    color: #656565da;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+.single__margkein a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lato';
+    color: #82cc45;
+}
+.single__margkein a:hover{
+    color: #997ece;
+}
+
+/* -------------------- poop up video  ---------------- */
+.video___poopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+
+.video___poopup1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+.video___poopup2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+.video___poopup3{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+.video___poopup4{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+.video___poopup5{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+
+.video___poopup6{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+.video___poopup7{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000 !important;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.80) !important;
+    transition: 0.5s !important;
+    z-index: 999999999999999999999999;
+}
+
+.video___poopup.active{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup1.active1{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup2.active2{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup3.active3{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup4.active4{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup5.active5{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup6.active6{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup7.active7{
+    visibility: visible;
+    opacity: 1;
+}
+.video___poopup iframe{
+    max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup1 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup2 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup3 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup4 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup5 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup6 iframe{
+   max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.video___poopup7 iframe{
+    max-width: 70vw !important;
+    height: 80vh !important;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px #000;
+}
+.if__controler{
+    max-width: 70vw !important;
+    height: 80vh !important;
+    position: relative;
+}
+.close____{
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    color: #000;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999;
+}
+.close____1{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____2{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____3{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____4{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____5{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____6{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+.close____7{
+    position: absolute;
+     top: -21px;
+    right: -21px;
+    cursor: pointer;
+    max-width: 45px;
+    
+}
+
+
+.custom___modeul{
+    width: 100% !important;
+}
+.content__modal{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none;
+}
+
+@media (max-width:1326px) {
+    iframe{
+        width: 80% !important;
+        height: 80% !important;
+    }
+    .if__controler{
+        max-width: 80% !important;
+        height: 80% !important;
+    }
+    .close____{
+        top:-4%;
+        right: 3%;
+    }
+    .close____1{
+        top:-4%;
+        right: 3%;
+    }
+    .close____2{
+        top:-4%;
+        right: 3%;
+    }.close____3{
+        top:-4%;
+        right: 3%;
+    }.close____4{
+        top:-4%;
+        right: 3%;
+    }.close____5{
+        top:-4%;
+        right: 3%;
+    }.close____6{
+        top:-4%;
+        right: 3%;
+    }
+    .close____7{
+        top:-4%;
+        right: 3%;
+    }
+}
+
+/* -------------------- poop up video  ---------------- */
+
+/*---------------------- section of  Digital Marketing Services end  -------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------- section of Maximize your Sales start ------------------ */
+.Maximize____Wraper{
+    width: 100%;
+    background-color: rgba(77,189,235,0.92);
+    margin: 40px 0;
+    overflow: hidden;
+}
+.Maximize____img{
+    padding: 60px 0;
+    text-align: center;
+}
+.Maximize____img img{
+    margin-top: 40px;
+}
+.Maximize____ {
+    padding: 60px 5px;
+}
+.Maximize____ h2{
+    padding: 30px 0;
+    color: #fff;
+    font-weight: bold;
+    line-height: 45px;
+}
+.Maximize____ p{
+    color: #fff;
+    font-family: 'Lato';
+    line-height: 1.8rem;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.Maximize____ ul{
+    list-style: none;
+}
+.Maximize____ ul li{
+    line-height: 2rem;
+    color: #fff;
+}
+
+/*----------------------- section of Maximize your Sales end ------------------ */
+
+
+
+
+
+
+
+
+/* --------------------- section of Client Acquisition Solutions start ----------------------- */
+.Client___Acquisition h3{
+    color: #21bbf4;
+    font-family: 'Lato';
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 300 ;
+}
+.Client___Acquisition p{
+    padding: 5px 35px;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 25px;
+    color: #333333;
+}
+/* --------------------- section of Client Acquisition Solutions end ----------------------- */
+
+
+
+
+
+/*------------------------- section of Responsive Web Designing start -----------------------*/
+.Responsive______img{
+    background-image: url(../images/webdesign-image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 343px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Responsive______ h3{
+    color: #21bbf4;
+    font-family: 'Lato';
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 300 ;
+    margin-bottom: 20px;
+}
+.Responsive______ p{
+    padding: 5px 0;
+    font-family: 'Lato' !important;
+    font-weight: 300;
+    line-height: 27px;
+    color: #333333;
+    overflow: hidden;
+}
+.Responsive______ a{
+    text-decoration: none;
+    color: #82cc45;
+    font-weight: 400;
+}
+.Responsive______ a:hover{
+    color: #997ece;
+}
+.Wprer___computer img{
+    transition: 0.3s;
+}
+.Wprer___computer img:hover {
+    transform: scale(1.2);
+}
+.Responsive______img img {
+    transition: 0.3s;
+}
+.Responsive______img img:hover{
+    transform: scale(1.2);
+}
+.Responsive______img2{
+    background-image: url(../images/seo-services-organizein.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 343px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Responsive______img2 img {
+    transition: 0.3s;
+}
+.Responsive______img2 img:hover{
+    transform: scale(1.2);
+}
+.Responsive______img3{
+    background-image: url(../images/ppc-organizein-1-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 343px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Responsive______img3 img {
+    transition: 0.3s;
+}
+.Responsive______img3 img:hover{
+    transform: scale(1.2);
+}
+.Responsive______imgA img {
+    transition: 0.3s;
+}
+.Responsive______imgA img:hover{
+    transform: scale(1.2);
+}
+.Responsive______imgX img {
+    transition: 0.3s;
+}
+.Responsive______imgX img:hover{
+    transform: scale(1.2);
+}
+.Responsive______imgZ img {
+    transition: 0.3s;
+}
+.Responsive______imgZ img:hover{
+    transform: scale(1.2);
+}
+.Responsive______imgY img {
+    transition: 0.3s;
+}
+.Responsive______imgY img:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:767px) {
+    .Responsive______img{
+        text-align: center !important;
+    }
+    .Responsive______img3{
+        text-align: center !important;
+    }
+    .Responsive______img2{
+        text-align: center !important;
+    }
+    .Responsive______imgA{
+        text-align: center !important;
+    }
+    .Responsive______imgX{
+        text-align: center !important;
+    }
+    .Responsive______imgY{
+        text-align: center !important;
+    }
+    .Responsive______imgZ{
+        text-align: center !important;
+    }
+}
+/*------------------------- section of Responsive Web Designing end -----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- section of Gets REAL RESULTS start --------------------- */
+.Maximize____2{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-left: 20px;
+}
+
+/* .Maximize____Wraper2{
+    padding: 10px 0 !important;
+} */
+.Maximize____img2{
+    padding: 0px;
+}
+.Maximize____2 h2{
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 48px!important;
+    line-height: 52px;
+}
+/* --------------------- section of Gets REAL RESULTS end --------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------- section of Lead Scoring services start ----------------------*/
+    .Responsive______imgX{
+        background-image: url(../images/SMM-organizei-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: initial;
+        width: 343px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .Responsive______imgY{
+        background-image: url(../images/Content-Development-organizein.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: initial;
+        width: 343px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .Responsive______imgZ{
+        background-image: url(../images/Inbound-marketing-funnel-organizein-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: initial;
+        width: 343px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .Responsive______imgA{
+        background-image: url(../images/Email-Marketing-Organizein-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: initial;
+        width: 343px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+/*--------------------------- section of Lead Scoring services end ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- section of better connections start ------------------------------*/
+.better_____connections{
+    background-image: url(../images/dtertedrgdfg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.better_____connections div img{
+
+    width:100px;
+}
+.better_____connections div h1{
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 80px;
+    color: #0a0a0a;
+}
+.better_____connections div p{
+    font-family: Lato;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+@media (max-width:767px) {
+    .Count____customer{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .Count____customer div{
+        border-left: 0 !important;
+    }
+    .started___section{
+        overflow-y: scroll;
+        height: 100%;
+    }
+}
+.single__customer{
+    text-align: center;
+    padding: 15px 5px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.single__customer img{
+    width: 70px;
+
+}
+.single__customer h1{
+    font-weight: 500;
+    margin: 15px 0;
+    font-size: 50px;
+    color: #0a0a0a;
+   
+}
+.single__customer p{
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+/*----------------------------- section of better connections end------------------------------*/
+
+
+
+
+
+
+
+
+/* ----------------------- section of Ready to get started start ---------------------- */
+.text____started {
+    text-align: end;
+    padding-right: 69px;
+    height: 379px;
+    padding-bottom: 60px;
+    padding-top: 33px;
+    background-color: rgba(77,189,235,0.92);
+    width: 100%;
+}
+.text____started2{
+    text-align: end;
+    padding-right: 69px;
+    height: 479px;
+    padding-bottom: 60px;
+    padding-top: 33px;
+    width: 100%;
+    margin-left: 12px !important;
+}
+.Ready____img1{
+    width: 50px;
+    height: 379px;
+    margin-top: 0 !important;
+    margin-top: -17.5px !important;
+}
+.Ready____img1{
+    background-image: url(../images/home-hero-poster-1-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.Ready____img2{
+    width: 50px;
+    height: 479px;
+    margin-top: 0 !important;
+    margin-top: -17.5px !important;
+    background-image: url(../images/dtertedrgdfg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.text____started h3{
+    font-family: Lato;
+    color: #fff;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 52px;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+.text____started p{
+    font-family: Lato;
+    color: #fff;
+    line-height:25px;
+    font-size: 15px;
+    margin-bottom: 40px;
+    padding-left: 124px;
+}
+.text____started a{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #ffc501;
+    padding: 13px 20px;
+    border-radius: 6px;
+    background-color: #ffc501;
+    transition: 0.3s;
+}
+.text____started a:hover{  
+    color: #ffc501;
+    background-color: #fff;
+}
+.Organizein_____ h3{
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 3rem;
+}
+.Organizein_____ h3 span{
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.Organizen____box_____Wraper{
+    border: 1px solid #fff;
+    padding: 60px 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: grab;   
+}
+
+.Organizen____box img{
+    margin-bottom: 30px;
+}
+.Organizen____box p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.Organizen____box span{
+    color: rgb(76, 116, 185);
+    font-size: 18px;
+    font-weight: 400;
+}
+.Organizen____box p.Arizona____{
+    margin-top: -15px;
+    color: gray;
+}
+
+.map____ img{
+    width: 120px;
+    margin-top: 50px;
+}
+.map____ h1{
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 80px;
+    color: #0a0a0a;
+}
+.map____ p{
+    font-family: Lato;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* ----------------------- section of Ready to get started end ---------------------- */
+
+
+
+
+
+
+
+
+/* ------------------ section of Happy Customers start ------------------------ */
+.Happy__single__customar{
+    padding: 25px 0;
+    height: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 10%);
+    border-radius: 6px;
+
+}
+.Happy__single__customar:hover{
+    box-shadow: 0 2px 20px 0 rgba(88, 88, 88, 0.438);
+    transition: 0.3s;
+}
+.Happy__single__customar:hover a{
+    color: rgba(77,189,235,0.92);
+}
+.Happy__single__customar img{
+    margin: 20px 0;
+}
+.Happy__single__customar h3{
+    font-size: 22px;
+    font-family: Lato;
+    color: rgba(77,189,235,0.92);
+    line-height: 24px;
+    font-weight: 300;
+    padding: 15px 0;
+}
+.Happy__single__customar p{
+    color: #8b8b8b;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 17px;
+    padding: 0 30px;
+    font-family: 'Lato' !important;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: start !important;
+}
+.Happy__single__customar a{
+    text-decoration: none;
+    color: #82cc45;
+    text-align: start !important;
+    padding-top: 10px;
+}
+.Happy__single__customar a i{
+    font-size: 13px;
+}
+.btn____ViewAllCase a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #ffc501;
+    border: 2px solid #ffc501;
+    padding: 15px 20px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.btn____ViewAllCase a:hover{
+    background-color: #fff;
+    color: #ffc501;
+}
+/* ------------------ section of Happy Customers end ------------------------ */
+
+
+
+
+
+/* ---------------------- sectio of admin start ----------------------- */
+.Wraper__admit__id{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Wraper__admit__id img{
+    margin-bottom: 20px;
+}
+.Wraper__admit__id p.header___admin{
+    color: #4dbdeb;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+}
+.Wraper__admit__id p{
+    color: #8b8b8b;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 45px;
+    font-weight: 300;
+}
+.Wraper__admit__id a{
+    color: #4dbdeb;
+    font-family: 'Lato';
+    font-size: 15px;
+    text-decoration: none;
+}
+.Organizein__exceed{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2e4c77;
+}
+.Organizein__exceed_end{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #5d6677;
+    line-height: 1.5em;
+}
+.slider__section_seo{
+    background-color: #f3f9ff!important;
+}
+.Marketing__slider_seo{
+    font-family: 'Lato';
+}
+/* ---------------------- sectio of admin end ----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- Partner-ship bisness start -------------------------- */
+.PartnerShip__header{
+    color: #4dbdeb!important;
+    font-family: 'Lato'!important;
+    font-size: 42px;
+    font-weight: bold;
+}
+.PartnerShip____details h4{
+    font-family: 'Lato';
+    color: #767676;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.PartnerShip____details p{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.PartnerShip____details a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 300;
+}
+.PartnerShip____details a i{
+    font-size: 15px;
+}
+.PartnerShip____details a:hover{
+    opacity: 0.5;
+}
+/* --------------------------- Partner-ship bisness end -------------------------- */
+
+
+
+
+
+
+
+/* ------------------------- section of Success__Digital start ------------------------- */
+.success___Digital{
+    background-image: url(../images/hp-img-closer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 150px;
+}
+.success____Digital____{
+    margin-top: 50px;
+}
+.success____Digital____ h1{
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #0f2196;
+    font-family: 'Lato';
+}
+.success____Digital____ p{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+}
+.success____Digital____ div a{
+    text-decoration: none;
+    border: 2px solid #ffc501;
+    color: #000;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    margin-right: 3px;
+    background-color: #ffc501;
+    border-radius: 6px;
+    font-size: 15px !important;
+}
+.success____Digital____ div a:hover{
+    background-color: #fff;
+    color: #ffc501;
+    transition: 0.3s;
+}
+.success____Digital____ div a.Edition____btn{
+    border: none;
+    background-color: transparent;
+    color: #4dbdeb;
+}
+.success____Digital____ div a.Edition____btn:hover{
+    color: #ffc501;
+    background-color: #fff;
+}
+/* ------------------------- section of Success__Digital end ------------------------- */
+
+
+
+
+
+
+
+
+
+/* ------------------------------- Comment box section start ---------------------- */
+.comment___box___Wraper{
+    width: 100%;
+    background: linear-gradient(34deg, rgba(18,102,210,1) 0%, rgba(0,176,255,1) 59%, rgba(18,210,179,1) 100%) !important;
+    padding: 70px 0;
+    padding-bottom: 200px;
+}
+.footer_title_outlin{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+.footer_title_outlin::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -18px;
+    left: -11px;
+    background: url(../images/bg-outline.png) no-repeat center;
+    width: 100%;
+    width: 164px;
+    height: 70px;
+    background-size: contain;
+    margin-left: 3%;
+}
+.comment____area___from h3{
+    color: #fff;
+    font-family: 'Lato'!important;
+    font-weight: bold;
+    padding: 5px 0 30px 0;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.Fname___email h5{
+    font-size: 15px;
+    color: #fff;
+}
+.Fname___email input{
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid #fff !important;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    padding: 12px 3px;
+    color: #fff;
+}
+.Fname___email input::placeholder{
+    color: rgba(255, 255, 255, 0.404);
+}
+.comment____area___from h5{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 0.4rem;
+}
+.comment____area___from select{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 15px 3px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: -8px !important;
+    border-bottom: 2px solid #fff !important;
+}
+.comment____area___from select option{
+    color: #000 !important;
+}
+.comment____area___from textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+}
+.comment____area___from textarea::placeholder{
+    color: #fff;
+}
+.comment____area___from button{
+    width: 100%;
+    border: 2px solid #ffc501;
+    background-color: #ffc501;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 24px 48px;
+    font-weight: bold;
+    font-size: 21px;
+    transition: 0.5s;
+}
+.comment____area___from button:hover{
+    background-color: #fff;
+    color: #ffc501;
+}
+
+.Organizein_____ a.Clinet____testimonials{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+.Organizein_____ a.Clinet____testimonials:hover{
+    color: #997ece;
+
+}
+/* ------------------------------- Comment box section end ---------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- speak marketing section start -------------------------- */
+.Contact__wraper__bg{
+    background-image: url(../images/bg-footer-cta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px 15px;
+    position: relative;
+    margin-top: -100px;
+
+}
+.left___speck___ img{
+    margin-right: 30px;
+}
+.left___speck___ div h5{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.left___speck___ div h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 900;
+    font-family: roboto;
+}
+.Single___Client__contact{
+    text-align: center;
+}
+.Single___Client__contact h3{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+.Single___Client__contact p{
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #fff;
+}
+/* ---------------------------------- speak marketing section end -------------------------- */
+
+
+
+
+
+
+/* -------------------- after footer section start ----------------- */
+.Left__site__footer ul{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: -10px;
+    padding-left: 0;
+}
+.Left__site__footer ul li{
+    display: inline-block;
+}
+.Left__site__footer ul li img{
+    width: 32px;
+    margin-right: 10px;
+}
+.Left__site__footer img{
+    width: 72px;
+    margin-bottom: 20px;
+}
+.Left__site__footer h4{
+    font-family: 'Lato'!important;
+    color: #181818;
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.Secound____site__footer h5{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.Secound____site__footer ul{
+    list-style: none;
+    padding: 0;
+}
+.Secound____site__footer ul li{
+    line-height: 30px;
+}
+.Secound____site__footer ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.Secound____site__footer ul li a:hover{
+    color: #997ece;
+}
+/* -------------------- after footer section end ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- footer section start ------------------------ */
+footer{
+    background: #032e61;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+.left____site___footer___btn button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 13px 28px;
+    border-radius: 5px;
+    margin: 20px 0;
+
+}
+.right____site___footer___btn p{
+    color: #fff;
+    font-size: 11px;
+    line-height:1.42857143;
+    font-family: 'Lato'!important;
+    font-weight: 300;
+}
+.right____site___footer___btn p span{
+    color: #00a1e0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.right____site___footer___btn p span:hover{
+    color: #fff;
+}
+.right____site___footer___btn ul{
+    list-style: none;
+    padding: 0;
+}
+.right____site___footer___btn ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.right____site___footer___btn ul li a{
+    text-decoration: none;
+    display: block;
+    color: #00a1e0;
+    font-size: 11px;
+    line-height:1.42857143;
+    font-family: 'Lato'!important;
+    font-weight: 300;
+    transition: 0.3s;
+}
+.right____site___footer___btn ul li:hover a{
+    color: #fff;
+}
+/* ---------------------- footer section end ------------------------ */
+
+
+
+
+
+
+
+
+/* -------------------------- seo page start ----------------------- */
+.Seo__banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../seoimg/Untitled-2-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+    margin-bottom: 50px;
+}
+.bnn__heade_seo h4{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1d1b2f!important;
+    font-size: 38px!important;
+    line-height: 50px!important;
+    margin-bottom: 2rem;
+}
+.bnn__heade_seo p{
+    color: #000000!important;
+    font-weight: 300!important;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif !important;
+    line-height: 24px;
+    margin-bottom: 3rem;
+}
+.bnn__heade_seo a{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 11px 28px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif ;
+    background-color: #4dbdeb;
+    margin: 5px 0;
+    border: none;
+    overflow: hidden;
+    z-index: 0;
+    transition: background-color 0.3s,box-shadow 0.3s,color 0.3s;
+    border-radius: 0.3em;
+    box-shadow: 0 0.15em 0.3em rgb(0 0 0 / 20%);
+}
+.bnn__heade_seo a:hover{
+    background: #fff;
+    color: #4dbdeb;
+}
+.Responsive______seo__ h4{    
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1b2f!important;
+    font-size: 38px!important;
+    line-height: 50px!important;
+}
+.Responsive______seo__ p{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px; 
+    font-weight: 400;
+}
+.Seo__details___ ul{
+    list-style: none;
+    padding-left:  0;
+}
+.Seo__details___ ul li{
+    line-height: 30px;
+    font-size: 14px; 
+}
+.Seo__details___ ul li i{
+    margin-right: 5px;
+    color: #1e73be;
+}
+.Marketing__slider_seo{
+    font-weight: bold;
+    color: #4dbdeb!important;
+}
+.slider_container_{
+    width: 60%;
+    margin: 0 auto;
+}
+.slider_container_ div p{
+    font-size: 14px;
+}
+.slider_container_ div a{
+    font-size: 14px;
+    color: #0789fa;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.slider_container_ div a:hover{
+    color: #6eb8f8;
+}
+.pre___ i{
+    color: rgb(160, 204, 250);
+    font-size: 100px;
+    margin-top: -20px;
+}
+.experience_text{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lato'!important;
+    color: rgb(12, 12, 12);
+}
+.seo__video{
+    width: 80%;
+    height: calc(.5625 * 80vw);
+}
+.business__other{
+    font-weight: bold;
+    color: #0f2196;
+}
+.business__other span{
+    color: #39a0df;
+}
+.WEBSITE_submit___btn{
+    background-color: #ffc501;
+    padding: 8px 25px;
+    margin-top: 0;
+    display: inline-block;
+    color: #000!important;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid #ffc501;
+    transition: 0.3s;
+}
+.WEBSITE_submit___btn a{
+    color: #000;
+    transition: 0.3s;
+}
+.WEBSITE_submit___btn:hover{
+    background-color: #fff;
+}
+.WEBSITE_submit___btn:hover a{
+    color: #ffc501;
+}
+
+@media (max-width:767px) {
+    .bnn__heade_seo{
+       margin-bottom:50px !important;
+    }
+
+}
+@media (max-width:425px) {
+    .pre___ i{
+        font-size: 60px;
+    }
+}
+/* -------------------------- seo page end ----------------------- */
+
+
+
+
+/*-------------------------- digital_innovation start------------------- */
+.digital_innovation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../competitorimg/158/image_banner_ahold_delhaize_case_study.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    margin-bottom: 50px;
+}
+.digital_innovation_header_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.digital_innovation_header_ h3{
+    color: #fff;
+    font-weight: 600;
+}
+.digital_innovation_header_ a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+.digital_innovation_header_ a span{
+    color: #00a1e0;
+}
+.digital_innovation_list{
+    text-align: start !important;
+
+}
+.digital_innovation_list ul{
+    padding: 0;
+}
+.digital_innovation_list ul li{
+    display: inline-block;
+    color: #fff;
+    list-style-type: decimal;
+}
+.digital_innovation_list ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.left_site_O2fit{
+    text-align: center;
+    background-color: #16325c;
+    padding: 25px;
+}
+.left_site_O2fit h3{
+    color: #fff;
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.left_site_O2fit ul li{
+    color: #fff;
+}
+.right_site_O2fit{
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 35px;
+}
+.right_site_O2fit h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.right_site_O2fit_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.right_site_O2fit_two div img{
+    width: 50px;
+}
+.right_site_O2fit_two div h1{
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: 30px;
+}
+.right_site_O2fit_two div p{
+    font-size: 15px;
+}
+.About_O2fit{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.About_O2fit h3{
+    font-weight: 400;
+    font-size: 37px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans',sans-serif;
+}
+.About_O2fit p{
+    font-size: 13.5px;
+    line-height: 25px;
+}
+.right__simplet___tex {
+    margin-bottom: 20px;
+}
+.right__simplet___tex p{
+    margin-bottom: -5px;
+}
+.right__simplet___tex a{
+    color: #00a1e0;
+    font-size: 14px;
+}
+.single_box___exploring {
+    border: 1px solid rgb(224, 224, 224);
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(216, 216, 216, 0.507);
+}
+.single_box___exploring:hover{
+    box-shadow: 0 0 15px rgba(216, 216, 216, 0.829);
+}
+@media (max-width:767px) {
+    .single_box___exploring {
+        width:100% !important;
+    }
+}
+.single_box___exploring img{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.single_box___exploring p{
+    margin-bottom: 50px;
+}
+.single_box___exploring2 img{
+    margin-bottom: 20px;
+}
+.single_box___exploring a{
+    color: #00a1e0;
+}
+.SMM__{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../competitorimg/147/Social-Media-Marketing-Image-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0;
+    margin-bottom: 50px;
+}
+.text-area__{
+    width: 100%;
+    outline: none;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 0 0 2px transparent, 0 1px 0 rgb(0 0 0 / 8%) inset;
+    transition: all 0.3s;
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    letter-spacing: 1px;
+    color: #333;
+}
+.text-area__:focus{
+    border: 2px solid #e95095;
+}
+.input__t{
+    outline: none;
+    padding: 18px 12px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 0 0 2px transparent, 0 1px 0 rgb(0 0 0 / 8%) inset;
+    transition: all 0.3s;
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.input__t:focus{
+    border: 2px solid #e95095;
+}
+.submit_btn{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+    transition-property: background,border,box-shadow,color,opacity,transform;
+    transition-duration: 0.3s;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 11px 28px;
+    margin: 5px 0;
+    border: none;
+    overflow: hidden;
+    z-index: 0;
+    transition: background-color 0.3s,box-shadow 0.3s,color 0.3s;
+    background: linear-gradient(135deg,#e95095,#7049ba);
+    color: #fff !important;
+    border-radius: 5px;
+}
+.SMM__0{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../competitorimg/145/Template-Banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0;
+    margin-bottom: 50px;
+}
+.Responsive______img3x{
+    background-image: url(../competitorimg/145/Image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 343px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.vs_ p{
+    font-family: Lato !important;
+}
+.sigle_wHo_we_are{
+    background-color: #fff;
+    width:250px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 1px 1px #ddd;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+@media (max-width:767px) {
+    .sigle_wHo_we_are{
+        width: 100% !important;
+    }
+}
+.sigle_wHo_we_are h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0c3c61;
+
+}
+.sigle_wHo_we_are span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #189cd7;
+}
+.sigle__owner{
+    text-align: center;
+    border: 1px solid rgba(145, 144, 144, 0.562);
+    width: 87%;
+    margin: 0 auto;
+    padding: 20px 0;
+    transition:0.3s;
+    box-shadow: 0px 0px 1px rgb(153, 153, 153);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+@media (max-width:767px) {
+    .sigle__owner{
+        width: 100% !important;
+    }
+}
+.sigle__owner:hover{
+    transform: translateY(-10px);
+}
+.sigle__owner:hover .img_bg img{
+    background-color: transparent;
+}
+.img_bg img{
+    background-color: rgb(209 236 255);
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: 0.3s;
+    width: 150px;
+}
+
+.sigle__owner h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #0c3c61;
+}
+.sigle__owner span{
+    font-size: 17px;
+    color: #0c3c61;
+}
+/*-------------------------- digital_innovation end------------------- */
+.list__199_page{
+    padding: 0;
+}
+.list__199_page li{
+    list-style: none !important;
+    display: inline-block;
+    position: relative;
+    font-size: 20px !important;
+    font-weight: 600;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.list__199_page li::after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #8ba3ca;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.list__199_page li:hover::after{
+    background-color: #1668eb;
+}
+.Happy__single__customar{
+    width: 90%;
+    margin: 0 auto;
+}
